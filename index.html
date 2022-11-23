@@ -3,90 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <title>Bystrov Oleg Alexandrovich</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td> <img src="avatar.png" width="200px" alt="тут должна быть моя пикчерз" /></td>
-            <td>
+    <div class="container"></div>
+    <div class="card bg-purple">
+        <div class="info">
+            <img src="avatar.png" alt="тут должна быть моя пикчерз" class="avatar" />
+            <div class="info_text">
                 <h1>Быстров Олег</h1>
                 <p><em>Я хочу очень сильно обучиться <strong>веб-программированию</strong></em></p>
                 <p>Я работаю, чтобы быть веселым!</p>
-            </td>
-        </tr>
-    </table>
+
+                <h4>Мои социальные сети и места нахождения в интернете</h4>
+                <a href="https://t.me/lma0bruh" target="_blank">telegram</a>
+                |
+                <a href="https://vk.com/olega_im" target="_blank">vk</a>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 
-    <hr>
+    <div class="card bg-green">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>программирование</li>
+            <li>gaming in pc</li>
+            <li>test123</li>
+        </ol>
+    </div>
 
-    <h2>Мои социальные сети и места нахождения в интернете</h2>
-    <ul type="square">
-        <li><a href="https://t.me/lma0bruh" target="_blank">telegram</a></li>
-        <li><a href="https://vk.com/olega_im" target="_blank">vk</a></li>
-    </ul>
 
-    <hr>
+    <div class="card bg-red">
+        <h2>Таблицы тестируем</h2>
+        <table class="table">
 
-    <h2>Мои хобби</h2>
-    <ol type="1">
-        <li>программирование</li>
-        <li>gaming in pc</li>
-        <li>test123</li>
-    </ol>
-
-    <hr>
-
-    <h2>Таблицы тестируем</h2>
-    <table>
-        <thead>
             <tr>
                 <th>Компания</th>
                 <th>Должность</th>
                 <th>Год</th>
             </tr>
-        </thead>
-        <tbody>
+
+
             <tr>
                 <td>Моя компания №1</td>
                 <td>Техник-программист</td>
                 <td>2021-2022 years</td>
             </tr>
-        </tbody>
-        <tfoot>
+
+
             <tr>
                 <td>Моя компания №2</td>
                 <td>Engineer-программист</td>
                 <td>2022-2023 years</td>
             </tr>
-        </tfoot>
-    </table>
 
-    <hr>
+        </table>
+    </div>
 
-    <h2>Моя вторая страничка</h2>
-    <a href="second.html">Посмотреть страничку</a>
+    <div class="card bg-yellow">
+        <h2>Моя вторая страничка</h2>
+        <ul class="link_list">
+            <li><a href="https://disk.yandex.ru/client/disk" target="_blank">Мой(ТВОЙ) YANDEX диск</a></li>
+            <li><a href="https://yandex.ru" target="_blank"> home page YANDEX</a></li>
+        </ul>
+    </div>
+    <div class="contacts">
+        <h2><label for="name">Обратная связь со мной</label></h2>
 
-    <hr>
+        <form action="/">
+            <div class="row">
+                <div class="form_group">
+                    <label for="name">Введите ваше имя:</label>
+                    <input type="text" id="name" placeholder="вводи сюда имя...">
+                    <input type="submit" class="btn" value="ОТПРАВИТЬ">
+                </div>
 
-    <h2><label for="name">Обратная связь со мной</label></h2>
+                <div class="form_group">
+                    <label for="email">Введите ваш email:</label>
+                    <input type="text" id="email" placeholder="вводи сюда email...">
+                    <input type="submit" class="btn" value="ОТПРАВИТЬ">
+                </div>
+            </div>
+            <div class="form_group">
+                <label for="message">Введите ваше сообщение:</label>
+                <textarea name="" id="text" cols="25" rows="1" placeholder="вводи сюда сообщение..."></textarea>
+                <input type="submit" class="btn" value="ОТПРАВИТЬ">
+            </div>
 
-    <form action="/">
-        <label for="name">Введите ваше имя:</label>
-        <input type="text" id="name" placeholder="вводи сюда имя...">
-        <input type="submit" value="ОТПРАВИТЬ">
-        <br>
-        <br>
-        <label for="email">Введите ваш email:</label>
-        <input type="text" id="email" placeholder="вводи сюда email...">
-        <input type="submit" value="ОТПРАВИТЬ">
-        <br>
-        <br>
-        <label for="message">Введите ваше сообщение:</label>
-       <textarea name="" id="text" cols="25" rows="1" placeholder="вводи сюда сообщение..."></textarea>
-        <input type="submit" value="ОТПРАВИТЬ">
-    </form>
+        </form>
+    </div>
+
+
+    <hr style="height: 20px; border-color: yellow; background-color: red; border-width: 6px;">
+    <div class="box-model">
+        <div>test1</div>
+        <div>test2</div>
+        <div>test3</div>
+        <div>test4</div>
+    </div>
+
+    <div style="margin-bottom: 200px;"></div>
+
+    <div class="position">
+        <div class="box">
+            здесь плавает навигационный текст!!!
+        </div>
+    </div>
+
 </body>
 
 </html>
